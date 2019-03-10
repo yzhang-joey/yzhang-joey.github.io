@@ -1,3 +1,3 @@
 # yzhang-cn
 
-This is the project to create Yi Zhang's homepage. 
+This is my personal homepage. 
