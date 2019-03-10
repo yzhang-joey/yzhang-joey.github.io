@@ -1,3 +1,3 @@
 # yzhang-cn
 
-This is my personal homepage. 
+This is the personal homepage of Yi Zhang (Joey). 
