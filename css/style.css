@@ -47,7 +47,7 @@ body.cd-overlay::after {
 }
 
 a {
-  color: #3b77e7;
+  color: #3f8ac3;
   text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ header {
   height: 120px;
   line-height: 120px;
   text-align: center;
-  background-color: #3b77e7;
+  background-color: #3f8ac3;
 }
 header h1 {
   color: #ffffff;
@@ -179,7 +179,7 @@ header h1 {
     left: 0;
     height: 100%;
     width: 3px;
-    background-color: #3b77e7;
+    background-color: #3f8ac3;
     opacity: 0;
     -webkit-transition: opacity 0.2s;
     -moz-transition: opacity 0.2s;
@@ -381,7 +381,7 @@ header h1 {
   .cd-faq-trigger {
     font-size: 24px;
     font-size: 1.0rem;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
     padding: 24px 72px 24px 24px;
   }
@@ -392,7 +392,7 @@ header h1 {
     top: 50%;
     height: 2px;
     width: 13px;
-    background: #cfdca0;
+    background: #3f8ac3;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-transition-property: -webkit-transform;
