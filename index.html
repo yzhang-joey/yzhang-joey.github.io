@@ -200,6 +200,10 @@
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
+<script type="text/javascript">    
+var url = window.location.href;    
+               if (url.indexOf("https") < 0) {    
+                   url = url.replace("http:", "https:");    
 </body>
 
 </html>
