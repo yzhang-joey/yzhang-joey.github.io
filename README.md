@@ -2,4 +2,4 @@
 
 This is the personal homepage of Yi Zhang (Joey). 
 
-You can access it with the link https://yzhang-joey.github.io/ or https://yzhang-cn.gitee.io/. 
+You can access it with the link https://y-zhang.cn/. 
