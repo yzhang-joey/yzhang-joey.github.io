@@ -50,9 +50,18 @@ body.cd-overlay::after {
 
 a {
   color: #3f8ac3;
-//  text-decoration: none;
+  text-decoration: none;
 }
 
+a:hover {
+  color: #1e6ca8; 
+  text-decoration: underline;
+}
+
+a:focus {
+  color: #1e6ca8; 
+  text-decoration: underline;
+}
 
 .counttext{text-align:center;height:15px;line-height:15px;}
 
