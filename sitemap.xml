@@ -9,7 +9,18 @@
 
 <url>
   <loc>https://y-zhang.cn/</loc>
-  <lastmod>2019-07-04T08:49:34+00:00</lastmod>
+  <lastmod>2019-08-09T08:07:48+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://y-zhang.cn/cv.html</loc>
+  <lastmod>2019-08-09T08:07:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://y-zhang.cn/publications.html</loc>
+  <lastmod>2019-08-09T08:07:48+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
