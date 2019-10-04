@@ -2445,7 +2445,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 }
 
 #main {
-	max-width: 925px;
+	max-width: cover; /* joey: 925px to cover */
 	margin-left: auto;
 	margin-right: auto;
 	clear: both;
@@ -3280,7 +3280,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 }
 
 .author__avatar img {
-	max-width: 175px;
+	max-width: 140px; /* joey 175px */
 	border-radius: 50%
 }
 
