@@ -3268,7 +3268,8 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 .author__avatar {
 	display: table-cell;
 	vertical-align: top;
-	width: 36px
+	width: 36px;
+    /* joey add height: 36px to make it square*/
 }
 
 @media (min-width: 57.8125em) {
@@ -3280,7 +3281,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 }
 
 .author__avatar img {
-	max-width: 140px; /* joey 175px */
+	max-width: 140px; /* joey 175px to 140px*/
 	border-radius: 50%
 }
 
