@@ -3282,7 +3282,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 .author__avatar img {
 	max-width: 140px; /* joey 175px to 140px*/
-	border-radius: 20%
+	border-radius: 0%
 }
 
 @media (min-width: 57.8125em) {
