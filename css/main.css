@@ -3281,13 +3281,13 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 }
 
 .author__avatar img {
-	max-width: 140px; /* joey 175px to 140px*/
+	max-width: 180px; /* joey 175px*/
 	border-radius: 0%
 }
 
 @media (min-width: 57.8125em) {
 	.author__avatar img {
-		padding: 5px;
+		padding: 1px;
 		border: 1px solid #f2f3f3
 	}
 }
