@@ -270,8 +270,8 @@ li ul,li ol {
 }
 
 figure {
-	display: -webkit-box;
-	display: flex;
+	/*display: -webkit-box;*/
+	/*display: flex;*/
 	-webkit-box-pack: justify;
 	justify-content: space-between;
 	-webkit-box-align: start;
@@ -3290,6 +3290,31 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 		padding: 1px;
 		border: 1px solid #f2f3f3
 	}
+}
+
+.typeDiv {
+width : 100%;
+border-bottom: 1px solid black;
+clear : both;
+display : table;
+}
+
+.memberPhoto {
+padding: 1px;
+border: 1px solid #f2f3f3;
+height: 160px;
+width : 120px;
+}
+
+.memberItem {
+margin: 10px 30px 10px 20px;
+float : left;
+}
+
+figcaption {
+text-align: center;
+font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+font-size: 1em
 }
 
 .author__content {
