@@ -3294,7 +3294,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 
 .typeDiv {
 width : 100%;
-border-bottom: 1px solid black;
+/*border-bottom: 1px solid black;*/
 clear : both;
 display : table;
 }
