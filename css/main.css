@@ -3299,6 +3299,12 @@ clear : both;
 display : table;
 }
 
+.labLogo {
+padding: 1px;
+height: 245px;
+width : 435px;
+}
+
 .memberPhoto {
 padding: 1px;
 border: 1px solid #f2f3f3;
