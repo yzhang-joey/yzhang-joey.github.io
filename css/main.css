@@ -3316,6 +3316,18 @@ margin: 10px 30px 10px 20px;
 float : left;
 }
 
+.activityPhoto {
+padding: 1px;
+border: 1px solid #f2f3f3;
+height: 240px;
+width : 320px;
+}
+
+.activityItem {
+margin: 0px 0px 0px 0px;
+float : left;
+}
+
 figcaption {
 text-align: center;
 font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
