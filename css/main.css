@@ -3304,6 +3304,9 @@ height: 110px;
 width : 685px;
 }
 
+
+/*成员照片*/
+
 .memberPhoto {
 padding: 1px;
 border: 1px solid #f2f3f3;
@@ -3312,9 +3315,36 @@ width : 120px;
 }
 
 .memberItem {
+/*position: relative;*/
 margin: 10px 30px 10px 20px;
 float : left;
 }
+
+.overlayDiv {
+position: relative;
+}
+
+.imgOverlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.overlayDiv:hover .imgOverlay {
+  opacity: 1;
+}
+
+/*活动照片*/
 
 .activityPhoto {
 padding: 1px;
@@ -3333,6 +3363,14 @@ text-align: center;
 font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
 font-size: 1em
 }
+
+/*图片点击放大预览*/
+.img-preview{position: fixed;background-color: rgba(0, 0, 0, 0.1);width: 100%;height: 100%;top: 0;left: 0;z-index: 2222;display: none;overflow-y: auto;}
+.img-preview .box{vertical-align: middle;padding: 50px 0;box-sizing: border-box;width: 100%;text-align: center;height: 100%;display: table;}
+.img-preview .mask{position: fixed;z-index: 2223;top: 0;left: 0;width: 100%;height: 100%;}
+.img-preview .cont{display: table-cell;vertical-align: middle;padding: 50px 0;box-sizing: border-box;}
+.img-preview .cont .img{max-width: 40%;padding: 3px;box-sizing: border-box;border-radius: 3px;background-color: #fff;display: inline-block;width: auto;position: relative;z-index: 3333;}
+.img-preview .cont .close{cursor:pointer;width:36px;height:36px;border-radius:50px;text-align:center;line-height:32px;font-size:22px;background:rgba(0,0,0,0.45);color:#fff;position:absolute;top:28px;right:28px}  
 
 .author__content {
 	display: table-cell;

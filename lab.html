@@ -20,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
   <script> document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js '; </script> 
   <!-- For all browsers --> 
-  <link rel="stylesheet" href="css/main.css" /> 
+  <link rel="stylesheet" href="css/main.css" />
   <meta http-equiv="cleartype" content="on" /> 
   <!-- start custom head snippets --> 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
@@ -28,7 +28,12 @@
   <link rel="stylesheet" href="css/academicons.css" /> 
   <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script> 
   <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } }); </script> 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML" async=""></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML" async=""></script>
+  <script src="./js/vendor/jquery/jquery-1.11.0.js"></script> 
+  <script src="./js/plugins/jquery.SuperSlide.2.1.3.js"></script> 
+<!--   <script src="./js/plugins/masonry.js"></script> 
+  <script src="./js/plugins/jquery.flex-images.min.js"></script>  -->
+  <script src="./js/plugins/script.js"></script>
   <!-- end custom head snippets --> 
  </head> 
  <body> 
@@ -105,21 +110,22 @@
      <figure class="memberItem"><img class="memberPhoto" src="img/student/2021_min_wu.jpg"><figcaption>吴敏</figcaption></figure>
      <figure class="memberItem"><img class="memberPhoto" src="img/student/2021_hanbin_hong.jpg"><figcaption>洪汉彬</figcaption></figure>
      <figure class="memberItem"><img class="memberPhoto" src="img/student/2021_yajing_xie.jpg"><figcaption>谢雅晶</figcaption></figure>
+     <figure class="memberItem"><img class="memberPhoto" src="img/student/2021_shiyu_sun.jpg"><figcaption>孙诗雨<br/>（协助指导）</figcaption></figure>
     </div>
     <div id="past-student" class="typeDiv">
       <ul><li><strong>Past Students</strong></li></ul>
-     <figure class="memberItem"><img class="memberPhoto" src="img/student/2020_weihang_wang.jpg"><figcaption>汪苇杭 『阿里巴巴』<br/>（协助指导）</figcaption></figure>
+     <figure class="memberItem"><div class="overlayDiv"><img class="memberPhoto" src="img/student/2020_weihang_wang.jpg"><div class="imgOverlay">阿里巴巴</div></div><figcaption>汪苇杭<br/>（协助指导）</figcaption></figure>
     </div>
     <h2>Activities</h2>
     <div id="activities" class="typeDiv">
-     <figure class="activityItem"><img class="activityPhoto" src="img/activity/2021_09_11_YOCSEF.jpg"><figcaption>2021.09.11 CCF YOCSEF</figcaption></figure>
-     <figure class="activityItem"><img class="activityPhoto" src="img/activity/2021_07_28_ICCC2021_1.jpg"><figcaption>2021.07.28 IEEE/CIC ICCC 2021</figcaption></figure>
-     <figure class="activityItem"><img class="activityPhoto" src="img/activity/2021_07_28_ICCC2021.jpg"><figcaption>2021.07.28 IEEE/CIC ICCC 2021</figcaption></figure>
-     <figure class="activityItem"><img class="activityPhoto" src="img/activity/2021_04_18_YOCSEF.jpg"><figcaption>2021.04.18 CCF YOCSEF</figcaption></figure>
-     <figure class="activityItem"><img class="activityPhoto" src="img/activity/2021_04_17_IoE2021.jpg"><figcaption>2021.04.17 IoE 2021</figcaption></figure>
-     <figure class="activityItem"><img class="activityPhoto" src="img/activity/2021_03_24_IMT_2030_6G.jpg"><figcaption>2021.03.24 IMT-2030 (6G)</figcaption></figure>
-     <figure class="activityItem"><img class="activityPhoto" src="img/activity/2021_01_09_Security.jpg"><figcaption>2021.01.09 Dept. of Cyberspace Security</figcaption></figure>
-     <figure class="activityItem"><img class="activityPhoto" src="img/activity/2020_12_26_YOCSEF.jpg"><figcaption>2020.12.26 CCF YOCSEF</figcaption></figure>
+        <div class="activityItem overlayDiv"><img class="activityPhoto" src="img/activity/2021_09_11_YOCSEF.jpg"><div class="imgOverlay">2021.09.11 CCF YOCSEF</div><div class="img-preview" style="display: none;"><div class="box"><div class="mask"></div><div class="cont"><div class="img"><div class="close">x</div><div class="img-view"><img src="img/activity/2021_09_11_YOCSEF.jpg"/></div></div></div></div></div></div>
+        <div class="activityItem overlayDiv"><img class="activityPhoto" src="img/activity/2021_07_28_ICCC2021_1.jpg"><div class="imgOverlay">2021.07.28 IEEE/CIC ICCC 2021</div><div class="img-preview" style="display: none;"><div class="box"><div class="mask"></div><div class="cont"><div class="img"><div class="close">x</div><div class="img-view"><img src="img/activity/2021_07_28_ICCC2021_1.jpg"/></div></div></div></div></div></div>
+        <div class="activityItem overlayDiv"><img class="activityPhoto" src="img/activity/2021_07_28_ICCC2021.jpg"><div class="imgOverlay">2021.07.28 IEEE/CIC ICCC 2021</div><div class="img-preview" style="display: none;"><div class="box"><div class="mask"></div><div class="cont"><div class="img"><div class="close">x</div><div class="img-view"><img src="img/activity/2021_07_28_ICCC2021.jpg"/></div></div></div></div></div></div>
+        <div class="activityItem overlayDiv"><img class="activityPhoto" src="img/activity/2021_04_18_YOCSEF.jpg"><div class="imgOverlay">2021.04.18 CCF YOCSEF</div><div class="img-preview" style="display: none;"><div class="box"><div class="mask"></div><div class="cont"><div class="img"><div class="close">x</div><div class="img-view"><img src="img/activity/2021_04_18_YOCSEF.jpg"/></div></div></div></div></div></div>
+        <div class="activityItem overlayDiv"><img class="activityPhoto" src="img/activity/2021_04_17_IoE2021.jpg"><div class="imgOverlay">2021.04.17 IoE 2021</div><div class="img-preview" style="display: none;"><div class="box"><div class="mask"></div><div class="cont"><div class="img"><div class="close">x</div><div class="img-view"><img src="img/activity/2021_04_17_IoE2021.jpg"/></div></div></div></div></div></div>
+        <div class="activityItem overlayDiv"><img class="activityPhoto" src="img/activity/2021_03_24_IMT_2030_6G.jpg"><div class="imgOverlay">2021.03.24 IMT-2030 (6G)</div><div class="img-preview" style="display: none;"><div class="box"><div class="mask"></div><div class="cont"><div class="img"><div class="close">x</div><div class="img-view"><img src="img/activity/2021_03_24_IMT_2030_6G.jpg"/></div></div></div></div></div></div>
+        <div class="activityItem overlayDiv"><img class="activityPhoto" src="img/activity/2021_01_09_Security.jpg"><div class="imgOverlay">2021.01.09 Department of Cyber Space Security</div><div class="img-preview" style="display: none;"><div class="box"><div class="mask"></div><div class="cont"><div class="img"><div class="close">x</div><div class="img-view"><img src="img/activity/2021_01_09_Security.jpg"/></div></div></div></div></div></div>
+        <div class="activityItem overlayDiv"><img class="activityPhoto" src="img/activity/2020_12_26_YOCSEF.jpg"><div class="imgOverlay">2020.12.26 CCF YOCSEF</div><div class="img-preview" style="display: none;"><div class="box"><div class="mask"></div><div class="cont"><div class="img"><div class="close">x</div><div class="img-view"><img src="img/activity/2020_12_26_YOCSEF.jpg"/></div></div></div></div></div></div>
     </div>
    </div> 
    <!-- </article>  --> 
@@ -139,7 +145,7 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'UA-143320012-1');
-   </script> 
-  </div>  
+   </script>
+  </div>
  </body>
 </html>
