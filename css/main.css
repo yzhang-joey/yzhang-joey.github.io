@@ -3346,6 +3346,13 @@ position: relative;
 
 /*活动照片*/
 
+.bookPhoto {
+padding: 1px;
+border: 1px solid #f2f3f3;
+height: 320px;
+width : 240px;
+}
+
 .activityPhoto {
 padding: 1px;
 border: 1px solid #f2f3f3;
